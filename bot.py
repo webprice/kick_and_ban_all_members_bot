@@ -62,7 +62,7 @@ async def handle_kick_all(event):
 
     chat = event.chat_id
     # Kick all members from the group
-    await kick_all_members(chat,True)
+    await kick_all_members(chat,False)
     await event.reply(f'All members(or max of 1000 per one run) have been kicked from the group: {chat}.\n'
                       f'Run the command /kick_all again to kick more members. \n'
                       f'Bot has been developed by https://hrekov.com \n'
