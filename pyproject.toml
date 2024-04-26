@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "kick-and-ban-all-members-bot"
+version = "0.1.0"
+description = "add bot to a group/channel and it will ban and kick all of the members"
+authors = ["Serhii Hrekov <themebeat@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-dotenv = "^1.0.1"
+telethon = "^1.35.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
